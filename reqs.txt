@@ -1,0 +1,8 @@
+Fonts:
+MADETommySoft Medium
+Cambria Bold
+
+Colors:
+#efad00
+#253138
+
