@@ -1,4 +1,8 @@
 /* variables */
+:root{
+    --primary: #efad00;
+    --secondary: #253138;
+}
 
 /* reset */
 *{
@@ -17,7 +21,38 @@ li{
 }
 
 /* base styles */
+.flex {
+    display: flex;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.container-fluid{
+    padding: 0 80px;
+}
 
 /* fonts */
 
 /* desktop styles */
+.navigation{
+    margin: 40px 0;
+}
+.navbar-brand{
+    grid-column: 1/3;
+    align-self: center;
+}
+.navbar-brand img{
+    width: 10em; 
+}
+.nav-links{
+    grid-column: 8/13;
+    align-self: center;
+}
+.nav-items{
+    justify-content: space-between;
+}
+.nav-item a{
+    font-weight: 500;
+    color: var(--secondary);
+}
